@@ -1,0 +1,9 @@
+"""
+连接数据库
+"""
+
+
+SECRET_KEY = 'HAGDi*8wa2W'
+SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:9811@127.0.0.1:3306/messageboard'
+SQLALCHEMY_COMMIT_ON_TEARDOWN = True
+SQLALCHEMY_TRACK_MODIFICATIONS = True
